@@ -1,8 +1,52 @@
 * {
-    font-family: 'Josefin Slab', serif;
+    /* font-family: 'Josefin Slab', serif; */
+    /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Princess Sofia', cursive; */
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+}
+
+.header-part {
+    margin-left: auto;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.main-header{
+    border-bottom: 2px solid rgb(28, 99, 158);
+    background-color: black;
+    opacity: 0.5;
+
+}
+.profile{
+   height: 100vh;
+   background-image: url('/img/home.jpg');
+   background-repeat: no-repeat;
+   background-position: cover;
+   padding-top: 150px;
+   background-color: black;
+   min-height: 700px;
+   background-attachment: fixed;
+
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    min-height: 700px;
+}
+.sign-part{
+    background-color: rgb(34, 133, 226);
+    padding: 15px;
+    border-radius: 10px;
+    height: 400px;;
+}
+/* explore section  */
+.head-title{
+    background-color: rgb(54, 54, 54);
+    padding:40px 0px;
 }
